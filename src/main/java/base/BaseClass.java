@@ -25,10 +25,11 @@ public class BaseClass {
     public static void initialization() {
         
     	
-    	ChromeOptions option = new ChromeOptions();
-    	option.setHeadless(false);
-    	WebDriverManager.chromedriver().setup();
-        driver = new ChromeDriver();
+    	System.setProperty("webdriver.chrome.driver", "/usr/bin/google-chrome");
+        ChromeOptions options = new ChromeOptions();
+        options.setHeadless(false);
+        WebDriver driver;
+        driver = new ChromeDriver(options);
     	
         driver.manage().window().maximize();
         driver.get(prop.getProperty("url"));
