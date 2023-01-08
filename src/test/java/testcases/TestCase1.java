@@ -25,6 +25,8 @@ public class TestCase1 extends BaseClass {
 	
 	@Test
 	public void click() {
+		
+		
 		homePage.clickOnTesting();
 	}
 	

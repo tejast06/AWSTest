@@ -21,6 +21,8 @@ public class HomePage extends BaseClass {
 	}
 	
 	public void clickOnTesting() {
+		System.out.println(driver.getTitle());
+		
 		testing.click();
 	}
 

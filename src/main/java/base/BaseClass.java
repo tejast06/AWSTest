@@ -7,6 +7,7 @@ import java.util.concurrent.TimeUnit;
 
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.chrome.ChromeOptions;
 
 import io.github.bonigarcia.wdm.WebDriverManager;
 
@@ -22,8 +23,13 @@ public class BaseClass {
     }
     
     public static void initialization() {
-        WebDriverManager.chromedriver().setup();
+        
+    	
+    	ChromeOptions option = new ChromeOptions();
+    	option.setHeadless(false);
+    	WebDriverManager.chromedriver().setup();
         driver = new ChromeDriver();
+    	
         driver.manage().window().maximize();
         driver.get(prop.getProperty("url"));
         driver.manage().timeouts().pageLoadTimeout(25, TimeUnit.SECONDS);
