@@ -27,7 +27,7 @@ public class BaseClass {
     	
     	System.setProperty("webdriver.chrome.driver", "/usr/bin/chromedriver");
         ChromeOptions options = new ChromeOptions();
-        options.setHeadless(false);
+        options.setHeadless(true);
         WebDriver driver;
         driver = new ChromeDriver(options);
     	
