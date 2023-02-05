@@ -25,7 +25,7 @@ public class BaseClass {
     public static void initialization() {
         
     	
-    	System.setProperty("webdriver.chrome.driver", "/usr/bin/google-chrome");
+    	System.setProperty("webdriver.chrome.driver", "/usr/bin/chromedriver");
         ChromeOptions options = new ChromeOptions();
         options.setHeadless(false);
         WebDriver driver;
