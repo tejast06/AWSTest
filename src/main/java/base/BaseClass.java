@@ -23,12 +23,13 @@ public class BaseClass {
     }
     
     public static void initialization() {
-        
-    	
+
+
     	ChromeOptions option = new ChromeOptions();
-    	option.setHeadless(false);
+    	option.setHeadless(true);
+
     	WebDriverManager.chromedriver().setup();
-        driver = new ChromeDriver();
+        driver = new ChromeDriver(option);
     	
         driver.manage().window().maximize();
         driver.get(prop.getProperty("url"));
