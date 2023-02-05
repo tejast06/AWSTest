@@ -8,11 +8,11 @@ import org.testng.annotations.Test;
 import base.BaseClass;
 import pages.HomePage;
 
-public class TestCase1 extends BaseClass {
+public class TestCaseOne extends BaseClass {
 	
 	public HomePage homePage;
 
-	public TestCase1() throws IOException, IOException {
+	public TestCaseOne() throws IOException, IOException {
 		super();
 		// TODO Auto-generated constructor stub
 	}

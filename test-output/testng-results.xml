@@ -6,16 +6,16 @@
     <groups>
     </groups>
     <test started-at="2023-01-08T06:08:56Z" name="Default test" finished-at="2023-01-08T06:09:53Z" duration-ms="56368">
-      <class name="testcases.TestCase1">
-        <test-method is-config="true" signature="setUp()[pri:0, instance:testcases.TestCase1@63eef88a]" started-at="2023-01-08T06:08:56Z" name="setUp" finished-at="2023-01-08T06:09:49Z" duration-ms="52988" status="PASS">
+      <class name="testcases.TestCaseOne">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:testcases.TestCaseOne@63eef88a]" started-at="2023-01-08T06:08:56Z" name="setUp" finished-at="2023-01-08T06:09:49Z" duration-ms="52988" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="click()[pri:0, instance:testcases.TestCase1@63eef88a]" started-at="2023-01-08T06:09:50Z" name="click" finished-at="2023-01-08T06:09:53Z" duration-ms="3235" status="PASS">
+        <test-method signature="click()[pri:0, instance:testcases.TestCaseOne@63eef88a]" started-at="2023-01-08T06:09:50Z" name="click" finished-at="2023-01-08T06:09:53Z" duration-ms="3235" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- click -->
-      </class> <!-- testcases.TestCase1 -->
+      </class> <!-- testcases.TestCaseOne -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
