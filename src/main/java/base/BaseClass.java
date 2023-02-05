@@ -26,7 +26,7 @@ public class BaseClass {
 
 
     	ChromeOptions option = new ChromeOptions();
-    	option.setHeadless(true);
+    	option.setHeadless(false);
 
     	WebDriverManager.chromedriver().setup();
         driver = new ChromeDriver(option);
