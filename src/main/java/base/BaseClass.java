@@ -28,7 +28,8 @@ public class BaseClass {
     	ChromeOptions option = new ChromeOptions();
     	option.setHeadless(false);
 
-    	WebDriverManager.chromedriver().setup();
+	 System.setProperty("webdriver.chrome.driver","/usr/bin/chromedriver");   
+    	//WebDriverManager.chromedriver().setup();
         driver = new ChromeDriver(option);
     	
         driver.manage().window().maximize();
