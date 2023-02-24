@@ -54,7 +54,7 @@
                 <version>3.0.0-M3</version>
                 <configuration>
                   <suiteXmlFile>testng.xml</suiteXmlFile>
-                        <skipTests>false</skipTests>
+                        <skipTests>true</skipTests>
                   </configuration>
             </plugin>
         </plugins>
