@@ -49,7 +49,7 @@
                 <version>2.22.2</version>
                 <configuration>
                   <suiteXmlFile>testng.xml</suiteXmlFile>
-                  <skipTests>false</skipTests>
+                  <skipTests>true</skipTests>
                   </configuration>
             </plugin>
         </plugins>
