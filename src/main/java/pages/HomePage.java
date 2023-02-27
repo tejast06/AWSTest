@@ -14,7 +14,7 @@ public class HomePage extends BaseClass {
 	WebElement testing;
 	
 	
-	public HomePage() throws IOException, IOException {
+	public HomePage(){
 		super();
 		// TODO Auto-generated constructor stub
 		PageFactory.initElements(driver,this);
