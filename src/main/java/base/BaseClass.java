@@ -18,7 +18,7 @@ public class BaseClass {
     
     public BaseClass() throws IOException, IOException {
         prop = new Properties();
-        FileInputStream ip = new FileInputStream(path+"\\src\\main\\java\\config\\config.properties");
+        FileInputStream ip = new FileInputStream(path+"//src//main//java//config//config.properties");
         prop.load(ip);
     }
     
