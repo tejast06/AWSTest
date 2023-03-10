@@ -26,7 +26,8 @@ public class BaseClass {
 
 
     	ChromeOptions option = new ChromeOptions();
-    	option.setHeadless(false);
+    	option.addArguments("--headless");
+        option.addArguments("--no-sandbox");
 
     	WebDriverManager.chromedriver().setup();
         driver = new ChromeDriver(option);
