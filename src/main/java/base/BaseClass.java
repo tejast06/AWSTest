@@ -29,7 +29,7 @@ public class BaseClass {
     	option.addArguments("--headless");
         option.addArguments("--no-sandbox");
 
-    	WebDriverManager.chromedriver().setup();
+    	System.setProperty("webdriver.chrome.driver","/usr/bin/chromedriver");
         driver = new ChromeDriver(option);
     	
         driver.manage().window().maximize();
