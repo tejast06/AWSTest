@@ -30,7 +30,7 @@ public class BaseClass {
         option.addArguments("--no-sandbox");
 	option.addArguments("--disable-dev-shm-usage");
 
-    	System.setProperty("webdriver.chrome.driver","/usr/lib/chromium-browser");
+    	System.setProperty("webdriver.chrome.driver","/usr/lib/chromium-browser/chromedriver");
         driver = new ChromeDriver(option);
     	
         driver.manage().window().maximize();
