@@ -29,8 +29,7 @@ public class BaseClass {
     	option.addArguments("--headless");
         option.addArguments("--no-sandbox");
 	option.addArguments("--disable-dev-shm-usage");
-	String driverPath = System.getProperty("webdriver.chrome.driver");
-    	System.setProperty("webdriver.chrome.driver",driverPath);
+    	System.setProperty("webdriver.chrome.driver","/usr/bin/chromedriver");
         driver = new ChromeDriver(option);
     	
         driver.manage().window().maximize();
