@@ -26,7 +26,7 @@ public class BaseClass {
 
 
     	ChromeOptions option = new ChromeOptions();
-    	option.addArguments("--headless");
+    	option.addArguments("-headless");
         option.addArguments("--no-sandbox");
 	option.addArguments("--disable-dev-shm-usage");
     	System.setProperty("webdriver.chrome.driver","/usr/bin/chromedriver");
