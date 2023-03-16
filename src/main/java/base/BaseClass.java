@@ -27,7 +27,7 @@ public class BaseClass {
 
     	ChromeOptions option = new ChromeOptions();
     	//option.addArguments("--headless");
-	  option.setHeadless(false);
+	  option.setHeadless(true);
         option.addArguments("--no-sandbox");
 	option.addArguments("--remote-allow-origins=*");
     	System.setProperty("webdriver.chrome.driver","/usr/bin/chromedriver");
